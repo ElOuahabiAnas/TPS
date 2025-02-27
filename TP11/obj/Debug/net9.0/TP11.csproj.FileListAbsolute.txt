@@ -1,0 +1,15 @@
+C:\Users\Dell\RiderProjects\TP\TP11\bin\Debug\net9.0\TP11.exe
+C:\Users\Dell\RiderProjects\TP\TP11\bin\Debug\net9.0\TP11.deps.json
+C:\Users\Dell\RiderProjects\TP\TP11\bin\Debug\net9.0\TP11.runtimeconfig.json
+C:\Users\Dell\RiderProjects\TP\TP11\bin\Debug\net9.0\TP11.dll
+C:\Users\Dell\RiderProjects\TP\TP11\bin\Debug\net9.0\TP11.pdb
+C:\Users\Dell\RiderProjects\TP\TP11\obj\Debug\net9.0\TP11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\RiderProjects\TP\TP11\obj\Debug\net9.0\TP11.AssemblyInfoInputs.cache
+C:\Users\Dell\RiderProjects\TP\TP11\obj\Debug\net9.0\TP11.AssemblyInfo.cs
+C:\Users\Dell\RiderProjects\TP\TP11\obj\Debug\net9.0\TP11.csproj.CoreCompileInputs.cache
+C:\Users\Dell\RiderProjects\TP\TP11\obj\Debug\net9.0\TP11.sourcelink.json
+C:\Users\Dell\RiderProjects\TP\TP11\obj\Debug\net9.0\TP11.dll
+C:\Users\Dell\RiderProjects\TP\TP11\obj\Debug\net9.0\refint\TP11.dll
+C:\Users\Dell\RiderProjects\TP\TP11\obj\Debug\net9.0\TP11.pdb
+C:\Users\Dell\RiderProjects\TP\TP11\obj\Debug\net9.0\TP11.genruntimeconfig.cache
+C:\Users\Dell\RiderProjects\TP\TP11\obj\Debug\net9.0\ref\TP11.dll

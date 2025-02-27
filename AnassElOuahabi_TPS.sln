@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP11", "TP11\TP11.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP12", "TP12\TP12.csproj", "{1F838EA7-F9A1-4A17-9DC1-AB112EA03597}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP3", "TP3\TP3.csproj", "{5AEF67A5-BE61-4EE9-A60E-87BBCDB6EFBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{1F838EA7-F9A1-4A17-9DC1-AB112EA03597}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F838EA7-F9A1-4A17-9DC1-AB112EA03597}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F838EA7-F9A1-4A17-9DC1-AB112EA03597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AEF67A5-BE61-4EE9-A60E-87BBCDB6EFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AEF67A5-BE61-4EE9-A60E-87BBCDB6EFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AEF67A5-BE61-4EE9-A60E-87BBCDB6EFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AEF67A5-BE61-4EE9-A60E-87BBCDB6EFBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
