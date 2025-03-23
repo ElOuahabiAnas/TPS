@@ -24,12 +24,17 @@
 
         public double ObtenirSalaireTotal()
         {
-            return gestionEmployes?.CalculerSalaireTotal() ?? 0;
+            if (gestionEmployes != null)
+                return gestionEmployes.CalculerSalaireTotal();
+            return 0;
         }
+        
 
         public double ObtenirSalaireMoyen()
         {
-            return gestionEmployes?.CalculerSalaireMoyen() ?? 0;
+            if(gestionEmployes != null)
+                return gestionEmployes.CalculerSalaireMoyen();
+            return 0;
         }
 
         public void AfficherInfosEntreprise()

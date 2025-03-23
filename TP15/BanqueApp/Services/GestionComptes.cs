@@ -73,6 +73,8 @@ namespace TP15.BanqueApp.Services
 
         private void ChargerComptes()
         {
+            Console.WriteLine($"Chemin de recherche du fichier : {Path.GetFullPath(dataFile)}");
+
             if (File.Exists(dataFile))
             {
                 string[] lignes = File.ReadAllLines(dataFile);

@@ -12,30 +12,42 @@ namespace TP21.Models
         {
             employes.Add(employe);
         }
-
+        
         public void SupprimerEmploye(string nom)
         {
-            var employe = employes.FirstOrDefault(e => e.Nom == nom);
-            if (employe != null)
+            if (nom != null)
             {
-                employes.Remove(employe);
-                Console.WriteLine($"Employé {nom} supprimé.");
-            }
-            else
-            {
-                Console.WriteLine($"Aucun employé trouvé avec le nom {nom}.");
+                for (int i = employes.Count - 1; i >= 0; i--)
+                {
+                    if (employes[i].Nom == nom)
+                    {
+                        employes.RemoveAt(i);
+                        Console.WriteLine($"Employé {nom} supprimé.");
+                    }
+                }
             }
         }
+
 
         public double CalculerSalaireTotal()
         {
-            return employes.Sum(e => e.Salaire);
+            double totale = 0;
+            if (employes.Count == 0) return totale;
+            foreach (Employee emp in employes)
+            {
+                totale += emp.Salaire;
+            }
+            return totale;
         }
+
 
         public double CalculerSalaireMoyen()
         {
-            return employes.Count > 0 ? employes.Average(e => e.Salaire) : 0;
+            if (employes.Count == 0) return 0;
+            double totale = CalculerSalaireTotal();
+            return totale / employes.Count;
         }
+
 
         public void AfficherTousLesEmployes()
         {

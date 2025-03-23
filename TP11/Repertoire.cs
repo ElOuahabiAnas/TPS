@@ -58,7 +58,7 @@ public class Repertoire
 
     public void Ajouter(Fichier fichier)
     {
-        if (NbrFichiers < MaxFichiers)
+        if (fichier != null && NbrFichiers < MaxFichiers)
         {
             fichiers[NbrFichiers++] = fichier;
             Console.WriteLine("Fichier ajouté avec succès.");

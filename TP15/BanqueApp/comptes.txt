@@ -1,2 +1,0 @@
-﻿12345;Houssam EZZAMOURI;5000.75
-67890;Alice Dupont;3200.50

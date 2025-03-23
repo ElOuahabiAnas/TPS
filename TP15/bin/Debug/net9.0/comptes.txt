@@ -1,0 +1,4 @@
+1;anass;7000
+2;mohamed;10000
+4;Megu;15000
+5;Anass;1000

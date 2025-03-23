@@ -35,8 +35,15 @@ public class Projet
 
     public void AjouterProgrammeur(Programmeur p)
     {
-        Programmeurs.Add(p);
-        Console.WriteLine($"Programmeur {p.nom} ajoute avec succes.");
+        if (p != null)
+        {
+            Programmeurs.Add(p);
+            Console.WriteLine($"Programmeur {p.nom} ajouté avec succès.");
+        }
+        else
+        {
+            Console.WriteLine("Programmeur invalide.");
+        }
     }
 
     public Programmeur RechercherProgrammeur(string nom)
@@ -66,7 +73,7 @@ public class Projet
             return;
         }
 
-        foreach (var p in Programmeurs)
+        foreach (Programmeur p in Programmeurs)
         {
             Console.WriteLine(p);
         }
@@ -123,4 +130,17 @@ public class Projet
         }
         Console.WriteLine($"Total de tasses de cafe consommees en semaine {semaine} : {total}");
     }
+    public void AfficherTotalCafeParProgrammeur()
+    {
+        foreach (var p in Programmeurs)
+        {
+            int total = 0;
+            for (int i = 0; i < dureeSemaines; i++)
+            {
+                total += p.GetConsommationSemaine(i);
+            }
+            Console.WriteLine($"{p.nom} : {total} tasses");
+        }
+    }
+
 }
